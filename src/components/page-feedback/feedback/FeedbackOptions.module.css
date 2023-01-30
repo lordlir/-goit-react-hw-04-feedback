@@ -1,0 +1,8 @@
+.btnBox {
+  display: flex;
+  gap: 30px;
+}
+.btn {
+  padding: 15px;
+  cursor: pointer;
+}
