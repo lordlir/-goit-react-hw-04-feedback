@@ -11,12 +11,12 @@ export const Statistics = ({ obj, total, positivePercentage }) => {
 
       <p className="text" key={uuidv4()}>
         Total:
-        <span className="count">{total()}</span>
+        <span className="count">{total}</span>
       </p>
 
       <p className="text" key={uuidv4()}>
         Positive feedback:
-        <span className="count">{positivePercentage() || 0}%</span>
+        <span className="count">{positivePercentage || 0}%</span>
       </p>
     </div>
   );
